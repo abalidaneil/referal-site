@@ -1,0 +1,10 @@
+Style 1: Bold & Trust-First (The Nigerian Fintech Look)
+This style is all about building immediate trust and looking like a serious platform. It's inspired by the design systems of successful Nigerian fintech apps like OPay, Moniepoint, and Mercurie .
+
+Colors: Deep blues, emerald greens, and clean whites. The Mercurie brand, for example, draws its color palette directly from the Nigerian Naira notes to establish local credibility .
+
+Typography: Clean, bold sans-serif fonts (like Inter or Montserrat). Text needs to be large and readable because, as the fintech UX report notes, you're designing for "real limitations" and need "clarity, speed, and trust over complex features" .
+
+The Vibe: Feels like a bank but looks modern. No clutter. Information is presented in clear, card-based modules. 71% of Nigerians find banking apps ineffective, but the successful ones prove that a clean, trustworthy interface is a competitive advantage .
+
+Why it fits: Your users are sending real money. This style signals safety and legitimacy from the first click. It's not about being flashy; it's about being reliable.
