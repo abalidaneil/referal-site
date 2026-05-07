@@ -41,9 +41,8 @@ $recent_referrals = $conn->query($sql);
         <div class="container">
             <a href="index.php" class="nav-logo">Referral Hub</a>
             <ul class="nav-menu">
-                <li><a href="dashboard.php">Dashboard</a></li>
-                <li><a href="leaderboard.php">Leaderboard</a></li>
-                <li><a href="admin.php">Admin</a></li>
+                <li><a href="admin.php" style="color: var(--primary-color); font-weight: bold;">Dashboard</a></li>
+                <li><a href="admin-withdrawals.php">Withdrawals</a></li>
                 <li><a href="logout.php" class="logout-btn">Logout</a></li>
             </ul>
         </div>

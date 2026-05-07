@@ -224,8 +224,7 @@ $referral_link = SITE_URL . "/register.php?ref=" . $user['referral_code'];
             <a href="index.php" class="nav-logo">Referral Hub</a>
             <ul class="nav-menu">
                 <li><a href="dashboard.php">Dashboard</a></li>
-                <li><a href="profile.php" class="active">Profile</a></li>
-                <li><a href="leaderboards.php">Leaderboards</a></li>
+                <li><a href="profile.php" class="active">Profile</a></li>                <li><a href="withdrawal.php">Withdrawal</a></li>                <li><a href="leaderboards.php">Leaderboards</a></li>
                 <li><a href="badges.php">Badges</a></li>
                 <li><a href="logout.php" class="logout-btn">Logout</a></li>
             </ul>

@@ -62,6 +62,22 @@ CREATE TABLE transactions (
   FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
 );
 
+CREATE TABLE withdrawal_requests (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  user_id INT NOT NULL,
+  amount INT NOT NULL,
+  status ENUM('pending', 'accepted', 'declined') DEFAULT 'pending',
+  bank_name VARCHAR(255) NOT NULL,
+  account_name VARCHAR(255) NOT NULL,
+  account_number VARCHAR(255) NOT NULL,
+  admin_notes VARCHAR(500),
+  requested_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  processed_at TIMESTAMP NULL,
+  FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
+  INDEX idx_user_id (user_id),
+  INDEX idx_status (status)
+);
+
 -- Create login_tokens table
 CREATE TABLE login_tokens (
   id INT PRIMARY KEY AUTO_INCREMENT,
